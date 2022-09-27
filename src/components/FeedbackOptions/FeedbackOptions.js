@@ -9,7 +9,7 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
           <button
             type="button"
             onClick={() => onLeaveFeedback(option)}
-            key="option"
+            key={option}
             className={s.button}
           >
             {option}
